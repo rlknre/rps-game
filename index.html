@@ -4,9 +4,26 @@
         <meta charset="UTF-8">
         <title>TOP | Rock-Paper-Scissors</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <script src="backend.js" >
-        </script>
+        <div class="header">
+            <p id="title"></p>
+            <p id="subtitle"></p>
+        </div>
+        <div class="main">
+            <div id="score"></div>
+            <div id="result"></div>
+            <ul class="player">
+                <li><button id="rock"></button></li>
+                <li><button id="paper"></button></li>
+                <li><button id="scissors"></button></li>
+            </ul>
+        </div>
+        <div class="footer"></div>
+
+        <!-- scripts -->
+        <script src="src/backend.js" ></script>
+        <script src="src/text.js" ></script>
     </body>
 </html>
